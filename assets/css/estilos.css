@@ -1,40 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Header*/
+
 body {
-    font-family: "Raleway", sans-serif;
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
+header {
+    text-align: center;
+}
 
-/* Hero Section */
+h1 {
+    font-size: 3rem;
+}
 
-#Hero-Section {
-    background-image: url("../img/FotoCV.jpg");
-    background-repeat: no-repeat;
+.img-iguana {
+    background-image: url(../img/bg-header.jpg);
     background-size: cover;
-    background-position: left;
-}
-
-
-/* Mis trabajos */
-
-#Mis-trabajos .image-top {
-    height: 250px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 70rem;
 }
 
-
-/* Contacto */
-
-#Contacto form label {
-    font-weight: 700;
-    color: #373a3c;
+.desc-section {
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    #Contacto form label {
-        font-weight: 400;
-    }
-    .navbar-brand {
-        width: 100px;
-    }
+.centrado {
+    display: inline-block;
+    width: 47%;
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+.centrado p {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.centrado img {
+    width: 5rem;
+}
+
+.caract {
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caract i {
+    font-size: 4rem;
+}
+
+.caract p {
+    font-size: 2rem;
+}
+
+.caract-sect {
+    display: inline-block;
+    width: 33%;
+}
+
+.articulo {
+    /* display: inline-block;
+    width: 100%;*/
+    text-align: center;
+}
+
+footer {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+a {
+    padding-top: 10px;
+    color: white;
 }
